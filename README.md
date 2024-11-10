@@ -1,4 +1,5 @@
 # mall
+<<<<<<< HEAD
 
 <p>
   <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-macrozheng-blue.svg" alt="公众号"></a>
@@ -212,3 +213,6 @@ mall
 [Apache License 2.0](https://github.com/macrozheng/mall/blob/master/LICENSE)
 
 Copyright (c) 2018-2024 macrozheng
+=======
+大学生二手闲置交易平台（创业版）
+>>>>>>> origin/main
