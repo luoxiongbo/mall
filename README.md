@@ -1,8 +1,10 @@
-# mall
+# 大学生二手交易平台
 ## 项目介绍
 
 `mall`项目是一套电商系统，基于SpringBoot+MyBatis实现，采用Docker容器化部署。
 前台系统由其他人员开发，本项目负责的是后台管理系统，包含商品管理、订单管理、人员管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。
+
+对于后台管理系统参考了若依管理系统的脚手架快速搭建，并学习了若依的核心代码和优势模块，将利己的模块进行保留，缺少的模块进行补充，然后再根据自己的业务进行进一步的设计。
 
 ### 管理系统
 
@@ -33,7 +35,6 @@ mall
 | Elasticsearch        | 搜索引擎            | https://github.com/elastic/elasticsearch       |
 | RabbitMQ             | 消息队列            | https://www.rabbitmq.com/                      |
 | Redis                | 内存数据存储         | https://redis.io/                              |
-| MongoDB              | NoSql数据库         | https://www.mongodb.com                        |
 | LogStash             | 日志收集工具        | https://github.com/elastic/logstash            |
 | Kibana               | 日志可视化查看工具  | https://github.com/elastic/kibana              |
 | Nginx                | 静态资源服务器      | https://www.nginx.com/                         |
@@ -41,7 +42,6 @@ mall
 | Jenkins              | 自动化部署工具      | https://github.com/jenkinsci/jenkins           |
 | Druid                | 数据库连接池        | https://github.com/alibaba/druid               |
 | OSS                  | 对象存储            | https://github.com/aliyun/aliyun-oss-java-sdk  |
-| MinIO                | 对象存储            | https://github.com/minio/minio                 |
 | JWT                  | JWT登录支持         | https://github.com/jwtk/jjwt                   |
 | Lombok               | Java语言增强库      | https://github.com/rzwitserloot/lombok         |
 | Hutool               | Java工具类库        | https://github.com/looly/hutool                |
