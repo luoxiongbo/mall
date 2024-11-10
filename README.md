@@ -1,53 +1,12 @@
 # mall
-<<<<<<< HEAD
-
-<p>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-macrozheng-blue.svg" alt="公众号"></a>
-  <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E4%BA%A4%E6%B5%81-%E5%BE%AE%E4%BF%A1%E7%BE%A4-2BA245.svg" alt="交流"></a>
-  <a href="https://github.com/macrozheng/mall-learning"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B-mall--learning-green.svg" alt="学习教程"></a>
-  <a href="https://github.com/macrozheng/mall-swarm"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/Cloud%E7%89%88%E6%9C%AC-mall--swarm-brightgreen.svg" alt="SpringCloud版本"></a>
-  <a href="https://github.com/macrozheng/mall-admin-web"><img src="https://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-mall--admin--web-green.svg" alt="后台管理系统"></a>
-  <a href="https://github.com/macrozheng/mall-app-web"><img src="https://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%89%8D%E5%8F%B0%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE-mall--app--web-green.svg" alt="前台商城项目"></a>
-  <a href="https://gitee.com/macrozheng/mall"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E7%A0%81%E4%BA%91-%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80-orange.svg" alt="码云"></a>
-</p>
-
-## 友情提示
-
-> 1. **快速体验项目**：[在线访问地址](https://www.macrozheng.com/admin/index.html) 。
-> 2. **全套学习教程**：[《mall学习教程》](https://www.macrozheng.com) 。
-> 3. **视频教程（2023最新版）**：[《mall视频教程》](https://www.macrozheng.com/mall/catalog/mall_video.html) 。
-> 4. **微服务版本**：基于Spring Cloud Alibaba的项目：[mall-swarm](https://github.com/macrozheng/mall-swarm) 。
-> 5. **分支说明**：`master`分支基于Spring Boot 2.7+JDK 8，`dev-v3`分支基于Spring Boot 3.2+JDK 17。
-
-## 前言
-
-`mall`项目致力于打造一个完整的电商系统，采用现阶段主流技术实现。
-
-## 项目文档
-
-文档地址：[https://www.macrozheng.com](https://www.macrozheng.com)
-
 ## 项目介绍
 
-`mall`项目是一套电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现，采用Docker容器化部署。前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。
+`mall`项目是一套电商系统，基于SpringBoot+MyBatis实现，采用Docker容器化部署。
+前台系统由其他人员开发，本项目负责的是后台管理系统，包含商品管理、订单管理、人员管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。
 
-### 项目演示
-
-#### 后台管理系统
-
-前端项目`mall-admin-web`地址：https://github.com/macrozheng/mall-admin-web
-
-项目演示地址： [https://www.macrozheng.com/admin/index.html](https://www.macrozheng.com/admin/index.html)  
+### 管理系统
 
 ![后台管理系统功能演示](./document/resource/mall_admin_show.png)
-
-#### 前台商城系统
-
-前端项目`mall-app-web`地址：https://github.com/macrozheng/mall-app-web
-
-项目演示地址（将浏览器切换为手机模式效果更佳）：[https://www.macrozheng.com/app/](https://www.macrozheng.com/app/)
-
-![前台商城系统功能演示](./document/resource/re_mall_app_show.jpg)
 
 ### 组织结构
 
@@ -58,8 +17,7 @@ mall
 ├── mall-security -- SpringSecurity封装公用模块
 ├── mall-admin -- 后台商城管理系统接口
 ├── mall-search -- 基于Elasticsearch的商品搜索系统
-├── mall-portal -- 前台商城系统接口
-└── mall-demo -- 框架搭建时的测试代码
+└── mall-portal -- 前台商城系统接口
 ```
 
 ### 技术选型
@@ -91,29 +49,6 @@ mall
 | Swagger-UI           | API文档生成工具      | https://github.com/swagger-api/swagger-ui      |
 | Hibernator-Validator | 验证框架            | http://hibernate.org/validator                 |
 
-#### 前端技术
-
-| 技术       | 说明                  | 官网                                   |
-| ---------- | --------------------- | -------------------------------------- |
-| Vue        | 前端框架              | https://vuejs.org/                     |
-| Vue-router | 路由框架              | https://router.vuejs.org/              |
-| Vuex       | 全局状态管理框架      | https://vuex.vuejs.org/                |
-| Element    | 前端UI框架            | https://element.eleme.io               |
-| Axios      | 前端HTTP框架          | https://github.com/axios/axios         |
-| v-charts   | 基于Echarts的图表框架 | https://v-charts.js.org/               |
-| Js-cookie  | cookie管理工具        | https://github.com/js-cookie/js-cookie |
-| nprogress  | 进度条控件            | https://github.com/rstacruz/nprogress  |
-
-#### 移动端技术
-
-| 技术         | 说明             | 官网                                    |
-| ------------ | ---------------- | --------------------------------------- |
-| Vue          | 核心前端框架     | https://vuejs.org                       |
-| Vuex         | 全局状态管理框架 | https://vuex.vuejs.org                  |
-| uni-app      | 移动端前端框架   | https://uniapp.dcloud.io                |
-| mix-mall     | 电商项目模板     | https://ext.dcloud.net.cn/plugin?id=200 |
-| luch-request | HTTP请求框架     | https://github.com/lei-mu/luch-request  |
-
 #### 架构图
 
 ##### 系统架构图
@@ -124,23 +59,7 @@ mall
 
 ![业务架构图](./document/resource/re_mall_business_arch.jpg)
 
-#### 模块介绍
-
-##### 后台管理系统 `mall-admin`
-
-- 商品管理：[功能结构图-商品.jpg](document/resource/mind_product.jpg)
-- 订单管理：[功能结构图-订单.jpg](document/resource/mind_order.jpg)
-- 促销管理：[功能结构图-促销.jpg](document/resource/mind_sale.jpg)
-- 内容管理：[功能结构图-内容.jpg](document/resource/mind_content.jpg)
-- 用户管理：[功能结构图-用户.jpg](document/resource/mind_member.jpg)
-
-##### 前台商城系统 `mall-portal`
-
-[功能结构图-前台.jpg](document/resource/mind_portal.jpg)
-
 #### 开发进度
-
-![项目开发进度图](./document/resource/re_mall_dev_flow.jpg)
 
 ## 环境搭建
 
@@ -202,17 +121,5 @@ mall
 - 读写分离解决方案请参考：[你还在代码里做读写分离么，试试这个中间件吧](https://www.macrozheng.com/project/gaea.html);
 - Redis集群解决方案请参考：[Docker环境下秒建Redis集群](https://www.macrozheng.com/blog/redis_cluster.html) 。
 
-## 公众号
-
-加微信群交流，关注公众号「**macrozheng**」，回复「**加群**」即可。
-
-![公众号图片](./document/resource/qrcode_for_macrozheng_258.jpg)
-
-## 许可证
-
-[Apache License 2.0](https://github.com/macrozheng/mall/blob/master/LICENSE)
-
-Copyright (c) 2018-2024 macrozheng
-=======
 大学生二手闲置交易平台（创业版）
 >>>>>>> origin/main
